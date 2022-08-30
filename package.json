@@ -1,11 +1,11 @@
 {
   "name": "cypress-plugin-snapshots",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "description": "Cypress snapshot functionality for data",
-  "homepage": "https://github.com/meinaart/cypress-plugin-snapshots",
+  "homepage": "https://github.com/bnibler/cypress10-plugin-snapshots",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meinaart/cypress-plugin-snapshots.git"
+    "url": "https://github.com/bnibler/cypress10-plugin-snapshots.git"
   },
   "types": "types/index.d.ts",
   "files": [
@@ -18,10 +18,10 @@
     "types"
   ],
   "engines": {
-    "node": ">=8.2.1"
+    "node": ">=16.13.0"
   },
   "bugs": {
-    "url": "https://github.com/meinaart/cypress-plugin-snapshots/issues"
+    "url": "https://github.com/bnibler/cypress10-plugin-snapshots/issues"
   },
   "keywords": [
     "cypress",
@@ -41,15 +41,15 @@
     "test": "jest & npm --prefix cypress run cy:run"
   },
   "dependencies": {
-    "diff2html": "^2.7.0",
-    "fs-extra": "^7.0.1",
-    "image-size": "^0.7.2",
+    "diff2html": "^3.4.18",
+    "fs-extra": "^10.1.0",
+    "image-size": "^1.0.2",
     "jimp": "^0.16.1",
-    "js-base64": "^2.5.1",
-    "lodash": "^4.17.13",
-    "pixelmatch": "^4.0.2",
-    "pngjs": "^3.3.3",
-    "prettier": "^1.16.4",
+    "js-base64": "^3.7.2",
+    "lodash": "^4.17.21",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^6.0.0",
+    "prettier": "^2.7.1",
     "rand-token": "^1.0.1",
     "rimraf": "^2.6.3",
     "sanitize-filename": "^1.6.1",
@@ -59,7 +59,7 @@
     "unidiff": "1.0.2"
   },
   "peerDependencies": {
-    "cypress": "^4.5.0"
+    "cypress": "^10.1.0"
   },
   "devDependencies": {
     "eslint": "^5.14.1",
