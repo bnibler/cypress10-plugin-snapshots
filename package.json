@@ -71,6 +71,9 @@
     "jest": "^24.1.0",
     "rewire": "^4.0.1"
   },
+  "browser": {
+    "crypto": false
+  },
   "prettier": {
     "printWidth": 100,
     "semi": true,
